@@ -2,6 +2,16 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "alpha": [
+        "dist/alpha/alpha",
+        "dist/alpha"
+      ],
+      "beta": [
+        "dist/beta/beta",
+        "dist/beta"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
